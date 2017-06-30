@@ -9,7 +9,7 @@ public class CalendarTest {
     public static void main(String[] args) {
 
         /**
-         * this test is to verify selected date is valid and weekday is showing correctly ot not
+         * this test is to verify selected date is valid and weekday is showing correctly or not
          *
           */
 
@@ -25,7 +25,7 @@ public class CalendarTest {
 
     }
 
-
+// calendar 
     public static ArrayList<Integer> daysInaMonth() {
         ArrayList days = new ArrayList();
         for (int i = 1; i < 32; i++) {
@@ -34,6 +34,7 @@ public class CalendarTest {
         return days;
     }
 
+    // weeks and dates validation method
     public static void weeksAndDatesValidationTest(int date1) {
 
         String[] WeekDays = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
@@ -53,6 +54,8 @@ public class CalendarTest {
         }
     }
 
+    
+    // weekdays caluclation method
     public static int howmanyWeekDays(String string) {
 
         String[] WeekDays = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
